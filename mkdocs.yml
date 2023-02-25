@@ -1,0 +1,15 @@
+site_name: Identificción de las Especies Vegetales
+docs_dir: "md"
+site_dir: "docs"
+theme: readthedocs
+markdown_extensions:
+  - admonition
+nav:
+    - Home: index.md
+    - UD 1 Identificación de las especies vegetales:
+      - Introducción: taxo-vegetal.md
+      - Célula Vegetal: celula-vegetal.md
+      - Tejidos Vegetales: tejidos-vegetales.md
+      - Morfología Plantas: morfologia-plantas.md
+      - Procesos Fisiológicos: procesos-fisiologicos.md
+    - About: about.md
